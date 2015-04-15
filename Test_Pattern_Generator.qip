@@ -1,0 +1,13 @@
+
+#QIP file for DSP Builder system Test_Pattern_Generator
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "Test_Pattern_Generator_dspbuilder/hdl" ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "Test_Pattern_Generator_dspbuilder/hdl/Test_Pattern_Generator.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor.qip" ]
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor1.qip" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor1_add.tcl" ]
+set_global_assignment -name "TCL_SCRIPT_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor_add.tcl" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor1_import.entityimport" ]
+set_global_assignment -name "SOURCE_FILE" [file join $::quartus(qip_path) "DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor_import.entityimport" ]

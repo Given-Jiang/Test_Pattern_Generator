@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_decoder" family="Cyclone V" style="SUPERSET"
+    fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="alt_dspbuilder_decoder_GNEQGKKPXW">
+        <generic name="WIDTH" value="2"/>
+        <generic name="DECODE" value="10"/>
+        <generic name="PIPELINE" value="1"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data" dir="Input"
+            vhdl-type="std_logic_vector(2-1 downto 0)" width="2" lowerbound="0"/>
+        <port name="dec" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_decoder_GNEQGKKPXW.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sdecoderaltr.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_decoder_GNM4LOIHXZ">
+        <generic name="WIDTH" value="2"/>
+        <generic name="DECODE" value="01"/>
+        <generic name="PIPELINE" value="1"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="data" dir="Input"
+            vhdl-type="std_logic_vector(2-1 downto 0)" width="2" lowerbound="0"/>
+        <port name="dec" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_decoder_GNM4LOIHXZ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sdecoderaltr.vhd"/>
+    </instance>
+    <supersetport name="dec" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="data" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="WIDTH" default="8" type="NATURAL"/>
+    <parameter-static name="DECODE" default="00000000" type="STRING"/>
+    <parameter-static name="PIPELINE" default="0" type="NATURAL"/>
+</jvgen>

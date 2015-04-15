@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="StateMachineEditor_import" family="Stratix III"
+    style="SUPERSET" fixed-name="true" temporary="false">
+    <instance version="8.0.0" decorated-name="StateMachineEditor_import_GN">
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="counter" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="data_end" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <port name="ready" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="reset" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="state" dir="Output"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+    </instance>
+    <source-file
+        name="E:\FPGA\SOC\Quartus\quartus\dsp_builder\design\VIP_LIB\Test_Pattern_Generator\DSPBuilder_Test_Pattern_Generator_import\StateMachineEditor_import.entityimport" stamp="1423621075681"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="counter" dir="Input"
+        vhdl-type="std_logic_vector(24-1 downto 0)" lowerbound="0"/>
+    <supersetport name="state" dir="Output"
+        vhdl-type="std_logic_vector(3-1 downto 0)" lowerbound="0"/>
+    <supersetport name="reset" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ready" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="data_end" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+</jvgen>

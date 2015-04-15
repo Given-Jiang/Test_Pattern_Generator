@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_cast" family="Cyclone V" style="COMPLEX"
+    fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN5EYRLJQW">
+        <generic name="WIDTH_INL" value="25"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="24"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="true"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(25-1 downto 0)" width="25" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN5EYRLJQW.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN7PRGDOVA">
+        <generic name="WIDTH_INL" value="32"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="24"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN7PRGDOVA.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNCPEUNC4M">
+        <generic name="WIDTH_INL" value="16"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="24"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNCPEUNC4M.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNKIWLRTQI">
+        <generic name="WIDTH_INL" value="48"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="24"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(48-1 downto 0)" width="48" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNKIWLRTQI.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNLHWQIRQK">
+        <generic name="WIDTH_INL" value="3"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="3"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="true"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNLHWQIRQK.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNTS3MQUMJ">
+        <generic name="WIDTH_INL" value="12"/>
+        <generic name="WIDTH_INR" value="4"/>
+        <generic name="WIDTH_OUTL" value="4"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNTS3MQUMJ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNJ7VFHJ4A">
+        <generic name="WIDTH_INL" value="16"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="4"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNJ7VFHJ4A.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNMYKU6OLE">
+        <generic name="WIDTH_INL" value="4"/>
+        <generic name="WIDTH_INR" value="12"/>
+        <generic name="WIDTH_OUTL" value="4"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNMYKU6OLE.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN5VN2FCXZ">
+        <generic name="WIDTH_INL" value="8"/>
+        <generic name="WIDTH_INR" value="8"/>
+        <generic name="WIDTH_OUTL" value="4"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN5VN2FCXZ.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNMMXHT3UH">
+        <generic name="WIDTH_INL" value="4"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="4"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="true"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(4-1 downto 0)" width="4" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNMMXHT3UH.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNNZHXLS76">
+        <generic name="WIDTH_INL" value="32"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="16"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNNZHXLS76.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN5P6ORZXA">
+        <generic name="WIDTH_INL" value="24"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="24"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="true"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN5P6ORZXA.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNLWRZWTQF">
+        <generic name="WIDTH_INL" value="3"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="3"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="true"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNLWRZWTQF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN33BXJAZX">
+        <generic name="WIDTH_INL" value="24"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="2"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(2-1 downto 0)" width="2" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN33BXJAZX.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN3ODVPHOL">
+        <generic name="WIDTH_INL" value="24"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="16"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN3ODVPHOL.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GN46N4UJ5S">
+        <generic name="WIDTH_INL" value="1"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="1"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="false"/>
+        <generic name="INTYPE" value="STD_LOGIC"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(1-1 downto 0)" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GN46N4UJ5S.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNKDE2NVCC">
+        <generic name="WIDTH_INL" value="24"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="25"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="false"/>
+        <generic name="OUTSIGNED" value="true"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(25-1 downto 0)" width="25" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNKDE2NVCC.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_cast_GNCCZ56SYK">
+        <generic name="WIDTH_INL" value="24"/>
+        <generic name="WIDTH_INR" value="0"/>
+        <generic name="WIDTH_OUTL" value="25"/>
+        <generic name="WIDTH_OUTR" value="0"/>
+        <generic name="INSIGNED" value="true"/>
+        <generic name="OUTSIGNED" value="true"/>
+        <generic name="INTYPE" value="STD_LOGIC_VECTOR"/>
+        <generic name="OUTTYPE" value="STD_LOGIC_VECTOR"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="output" dir="Output"
+            vhdl-type="std_logic_vector(25-1 downto 0)" width="25" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_cast_GNCCZ56SYK.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_SBF.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_ASAT.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sAltrPropagate.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_AROUND.vhd"/>
+    </instance>
+    <parameter-static name="WIDTH_INL" default="8" type="NATURAL"/>
+    <parameter-static name="WIDTH_INR" default="0" type="NATURAL"/>
+    <parameter-static name="WIDTH_OUTL" default="8" type="NATURAL"/>
+    <parameter-static name="WIDTH_OUTR" default="0" type="NATURAL"/>
+    <parameter-static name="SATURATE" default="0" type="NATURAL"/>
+    <parameter-static name="ROUND" default="0" type="NATURAL"/>
+    <parameter-static name="INSIGNED" default="true" type="STRING"/>
+    <parameter-static name="OUTSIGNED" default="true" type="STRING"/>
+    <parameter-static name="INTYPE" default="STD_LOGIC_VECTOR" type="STRING"/>
+    <parameter-static name="OUTTYPE" default="STD_LOGIC_VECTOR" type="STRING"/>
+</jvgen>

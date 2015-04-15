@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_case_statement" family="Cyclone V"
+    style="COMPLEX" fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="alt_dspbuilder_case_statement_GN4KF5KLTA">
+        <generic name="CASE_BLOCK" value="000,001,010,100"/>
+        <generic name="WIDTH" value="3"/>
+        <generic name="NUMBER_OUTPUTS" value="5"/>
+        <generic name="HASDEFAULT" value="1"/>
+        <generic name="PIPELINE" value="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(3-1 downto 0)" width="3" lowerbound="0"/>
+        <port name="r0" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r1" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r2" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r3" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r4" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_case_statement_GN4KF5KLTA.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_case_statement_GNWMX2GCN2">
+        <generic name="CASE_BLOCK" value="0000000000000100"/>
+        <generic name="WIDTH" value="16"/>
+        <generic name="NUMBER_OUTPUTS" value="2"/>
+        <generic name="HASDEFAULT" value="1"/>
+        <generic name="PIPELINE" value="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="r0" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r1" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_case_statement_GNWMX2GCN2.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_case_statement_GNFTM45DFU">
+        <generic name="CASE_BLOCK" value="0000000000000000,0000000000000100"/>
+        <generic name="WIDTH" value="16"/>
+        <generic name="NUMBER_OUTPUTS" value="2"/>
+        <generic name="HASDEFAULT" value="0"/>
+        <generic name="PIPELINE" value="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="input" dir="Input"
+            vhdl-type="std_logic_vector(16-1 downto 0)" width="16" lowerbound="0"/>
+        <port name="r0" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="r1" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_case_statement_GNFTM45DFU.vhd"/>
+    </instance>
+    <parameter-static name="CASE_BLOCK" default="" type="STRING"/>
+    <parameter-static name="WIDTH" default="8" type="INTEGER"/>
+    <parameter-static name="NUMBER_OUTPUTS" default="8" type="INTEGER"/>
+    <parameter-static name="HASDEFAULT" default="0" type="NATURAL"/>
+    <parameter-static name="PIPELINE" default="0" type="NATURAL"/>
+</jvgen>

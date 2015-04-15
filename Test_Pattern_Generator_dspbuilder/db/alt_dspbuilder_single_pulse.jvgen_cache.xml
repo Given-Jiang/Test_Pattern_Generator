@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_single_pulse" family="Cyclone V"
+    style="SUPERSET" fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="alt_dspbuilder_single_pulse_GN2XGKTRR3">
+        <generic name="DELAY" value="1"/>
+        <generic name="SIGNAL_TYPE" value="Step Down"/>
+        <generic name="IMPULSE_WIDTH" value="1"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_single_pulse_GN2XGKTRR3.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sImpulse1nAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sImpulsennAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sStepAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sImpulsen1Altr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sImpulseAltr.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sImpulse11Altr.vhd"/>
+    </instance>
+    <supersetport name="result" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="DELAY" default="1" type="POSITIVE"/>
+    <parameter-static name="SIGNAL_TYPE" default="Impulse" type="STRING"/>
+    <parameter-static name="IMPULSE_WIDTH" default="1" type="POSITIVE"/>
+</jvgen>

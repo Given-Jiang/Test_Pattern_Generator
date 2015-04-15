@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="Test_Pattern_Generator" family="Stratix III"
+    style="SUPERSET" fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="Test_Pattern_Generator_GN">
+        <port name="Avalon_MM_Slave_address" dir="Input"
+            vhdl-type="std_logic_vector(2-1 downto 0)" width="2" lowerbound="0"/>
+        <port name="Avalon_MM_Slave_write" dir="Input"
+            vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="Avalon_MM_Slave_writedata" dir="Input"
+            vhdl-type="std_logic_vector(32-1 downto 0)" width="32" lowerbound="0"/>
+        <port name="Avalon_ST_Source_data" dir="Output"
+            vhdl-type="std_logic_vector(24-1 downto 0)" width="24" lowerbound="0"/>
+        <port name="Avalon_ST_Source_endofpacket" dir="Output"
+            vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="Avalon_ST_Source_ready" dir="Input"
+            vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="Avalon_ST_Source_startofpacket" dir="Output"
+            vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="Avalon_ST_Source_valid" dir="Output"
+            vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="Clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN.vhd"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN_Test_Pattern_Generator_DATA_GENERATE.vhd"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN_Test_Pattern_Generator_CTRL_PAK_TRANSLATE.vhd"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN_Test_Pattern_Generator_MAIN_CTRL.vhd"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN_Test_Pattern_Generator_MAIN_CTRL_CTRL_TOP.vhd"/>
+        <generated-file file-type="VHDL" filename="Test_Pattern_Generator_GN_Test_Pattern_Generator_MAIN_CTRL_SIGNAL_OUT.vhd"/>
+        <generated-file file-type="VHDL" filename="tb_Test_Pattern_Generator.vhd"/>
+        <instantiates-child childname="alt_dspbuilder_clock" decorated-name="alt_dspbuilder_clock_GNF343OQUJ"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GN6TDLHAW6"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GN37ALZBS4"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GNEPKLLZKY"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNPLBTTHPL"/>
+        <instantiates-child childname="alt_dspbuilder_delay" decorated-name="alt_dspbuilder_delay_GNPJ4Y7BVC"/>
+        <instantiates-child childname="alt_dspbuilder_gnd" decorated-name="alt_dspbuilder_gnd_GN"/>
+        <instantiates-child childname="alt_dspbuilder_logical_bit_op" decorated-name="alt_dspbuilder_logical_bit_op_GNUQ2R64DV"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GNOC3SGKQJ"/>
+        <instantiates-child childname="alt_dspbuilder_logical_bit_op" decorated-name="alt_dspbuilder_logical_bit_op_GNA5ZFEL7V"/>
+        <instantiates-child childname="alt_dspbuilder_decoder" decorated-name="alt_dspbuilder_decoder_GNEQGKKPXW"/>
+        <instantiates-child childname="alt_dspbuilder_vcc" decorated-name="alt_dspbuilder_vcc_GN"/>
+        <instantiates-child childname="alt_dspbuilder_decoder" decorated-name="alt_dspbuilder_decoder_GNM4LOIHXZ"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN5EYRLJQW"/>
+        <instantiates-child childname="alt_dspbuilder_clock" decorated-name="alt_dspbuilder_clock_GNQFU4PUDH"/>
+        <instantiates-child childname="alt_dspbuilder_pipelined_adder" decorated-name="alt_dspbuilder_pipelined_adder_GNWEIMU3MK"/>
+        <instantiates-child childname="alt_dspbuilder_bus_build" decorated-name="alt_dspbuilder_bus_build_GNI6E4JZ66"/>
+        <instantiates-child childname="alt_dspbuilder_divider" decorated-name="alt_dspbuilder_divider_GNKAPZN5MO"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNJ7D74ANQ"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNKT7L5CDY"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNIV4UP6ZO"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNMQPB5LUF"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNZR777PB6"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNUWBUDS4L"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNJ2DIDH6N"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNNCFWNIJI"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNWHMBR6GA"/>
+        <instantiates-child childname="alt_dspbuilder_single_pulse" decorated-name="alt_dspbuilder_single_pulse_GN2XGKTRR3"/>
+        <instantiates-child childname="StateMachineEditor1_import" decorated-name="StateMachineEditor1_import_GN"/>
+        <instantiates-child childname="alt_dspbuilder_counter" decorated-name="alt_dspbuilder_counter_GNZKRIGTBB"/>
+        <instantiates-child childname="alt_dspbuilder_multiplier" decorated-name="alt_dspbuilder_multiplier_GNEIWYOKUR"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN7PRGDOVA"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNCPEUNC4M"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNKIWLRTQI"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNLHWQIRQK"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNTS3MQUMJ"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNJ7VFHJ4A"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNMYKU6OLE"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN5VN2FCXZ"/>
+        <instantiates-child childname="alt_dspbuilder_bus_concat" decorated-name="alt_dspbuilder_bus_concat_GNAUBM7IRL"/>
+        <instantiates-child childname="alt_dspbuilder_bus_concat" decorated-name="alt_dspbuilder_bus_concat_GNWZPLIVXS"/>
+        <instantiates-child childname="alt_dspbuilder_bus_concat" decorated-name="alt_dspbuilder_bus_concat_GNIIOZRPJD"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GNCNBVQF75"/>
+        <instantiates-child childname="alt_dspbuilder_bus_concat" decorated-name="alt_dspbuilder_bus_concat_GN55ETJ4VI"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNMMXHT3UH"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNNZHXLS76"/>
+        <instantiates-child childname="alt_dspbuilder_pipelined_adder" decorated-name="alt_dspbuilder_pipelined_adder_GNTWZRTG4I"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GNEHYJMBQS"/>
+        <instantiates-child childname="alt_dspbuilder_counter" decorated-name="alt_dspbuilder_counter_GNKAA2ZBZG"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNQJ63TWA6"/>
+        <instantiates-child childname="StateMachineEditor_import" decorated-name="StateMachineEditor_import_GN"/>
+        <instantiates-child childname="alt_dspbuilder_case_statement" decorated-name="alt_dspbuilder_case_statement_GN4KF5KLTA"/>
+        <instantiates-child childname="alt_dspbuilder_port" decorated-name="alt_dspbuilder_port_GNUJT4YY5I"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN5P6ORZXA"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNLWRZWTQF"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN33BXJAZX"/>
+        <instantiates-child childname="alt_dspbuilder_case_statement" decorated-name="alt_dspbuilder_case_statement_GNWMX2GCN2"/>
+        <instantiates-child childname="alt_dspbuilder_case_statement" decorated-name="alt_dspbuilder_case_statement_GNFTM45DFU"/>
+        <instantiates-child childname="alt_dspbuilder_multiplexer" decorated-name="alt_dspbuilder_multiplexer_GNLGLCKYZ5"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNNKZSYI73"/>
+        <instantiates-child childname="alt_dspbuilder_bus_concat" decorated-name="alt_dspbuilder_bus_concat_GN6E6AAQPZ"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNZEH3JAKA"/>
+        <instantiates-child childname="alt_dspbuilder_delay" decorated-name="alt_dspbuilder_delay_GNIYBMGPQQ"/>
+        <instantiates-child childname="alt_dspbuilder_constant" decorated-name="alt_dspbuilder_constant_GNLJWFEWBD"/>
+        <instantiates-child childname="alt_dspbuilder_if_statement" decorated-name="alt_dspbuilder_if_statement_GNTVBNRAAT"/>
+        <instantiates-child childname="alt_dspbuilder_delay" decorated-name="alt_dspbuilder_delay_GNNBTO2F3L"/>
+        <instantiates-child childname="alt_dspbuilder_multiplexer" decorated-name="alt_dspbuilder_multiplexer_GNHQFFAUXQ"/>
+        <instantiates-child childname="alt_dspbuilder_multiplexer" decorated-name="alt_dspbuilder_multiplexer_GN6ODCX3D4"/>
+        <instantiates-child childname="alt_dspbuilder_delay" decorated-name="alt_dspbuilder_delay_GNVJUPFOX3"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN3ODVPHOL"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GN46N4UJ5S"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNKDE2NVCC"/>
+        <instantiates-child childname="alt_dspbuilder_cast" decorated-name="alt_dspbuilder_cast_GNCCZ56SYK"/>
+        <instantiates-child childname="Test_Pattern_Generator" decorated-name="Test_Pattern_Generator_GN"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_clock" decorated-name="alt_dspbuilder_testbench_clock_GNCGUFKHRR"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_salt" decorated-name="alt_dspbuilder_testbench_salt_GN6DKNTQ5M"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_salt" decorated-name="alt_dspbuilder_testbench_salt_GN7Z4SHGOK"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_salt" decorated-name="alt_dspbuilder_testbench_salt_GNDBMPYDND"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_capture" decorated-name="alt_dspbuilder_testbench_capture_GNQX2JTRTZ"/>
+        <instantiates-child childname="alt_dspbuilder_testbench_capture" decorated-name="alt_dspbuilder_testbench_capture_GNHCRI5YMO"/>
+    </instance>
+    <source-file
+        name="E:\FPGA\SOC\Quartus\quartus\dsp_builder\design\VIP_LIB\Test_Pattern_Generator\Test_Pattern_Generator.slx" stamp="1423622148217"/>
+    <source-file
+        name="E:\FPGA\SOC\Quartus\quartus\dsp_builder\design\VIP_LIB\Test_Pattern_Generator\Test_Pattern_Generator.mdlxml" stamp="1423622162657"/>
+    <supersetport name="Avalon_ST_Source_startofpacket" dir="Output"
+        vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_MM_Slave_address" dir="Input"
+        vhdl-type="std_logic_vector(2-1 downto 0)" lowerbound="0"/>
+    <supersetport name="Avalon_ST_Source_valid" dir="Output"
+        vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_MM_Slave_writedata" dir="Input"
+        vhdl-type="std_logic_vector(32-1 downto 0)" lowerbound="0"/>
+    <supersetport name="Clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_ST_Source_ready" dir="Input"
+        vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_MM_Slave_write" dir="Input"
+        vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_ST_Source_endofpacket" dir="Output"
+        vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="Avalon_ST_Source_data" dir="Output"
+        vhdl-type="std_logic_vector(24-1 downto 0)" lowerbound="0"/>
+</jvgen>

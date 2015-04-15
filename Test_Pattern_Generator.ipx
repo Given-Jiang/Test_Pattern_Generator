@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+ <!--  date: 2015.02.27.10:05:26 -->
+ <component
+   name="Test_Pattern_Generator"
+   file="Test_Pattern_Generator.slx"
+   displayName="Test_Pattern_Generator"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder 7.1 Components"
+   factory="DSPBuilderFactory" />
+ <component
+   name="Test_Pattern_Generator_Interface"
+   file="Test_Pattern_Generator.slx"
+   displayName="Test_Pattern_Generator_Interface"
+   version="1.0"
+   description="A DSP Builder System."
+   tags="AUTHORSHIP=DSPBuilder Design"
+   categories="DSPBuilder Systems"
+   factory="DSPBuilderFactory" />
+ <component
+   name="StateMachineEditor1_import"
+   file="DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor1_import.entityimport"
+   displayName="StateMachineEditor1_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+ <component
+   name="StateMachineEditor_import"
+   file="DSPBuilder_Test_Pattern_Generator_import/StateMachineEditor_import.entityimport"
+   displayName="StateMachineEditor_import"
+   version="8.0.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories=""
+   factory="ImportFactory" />
+</library>

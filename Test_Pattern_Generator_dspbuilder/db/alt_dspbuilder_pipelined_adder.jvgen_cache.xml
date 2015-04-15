@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_pipelined_adder" family="Cyclone V"
+    style="SUPERSET" fixed-name="false" temporary="false">
+    <instance version="13.1" decorated-name="alt_dspbuilder_pipelined_adder_GNWEIMU3MK">
+        <generic name="USE_CARRY_PORT" value="0"/>
+        <generic name="USE_CARRY_OUT_PORT" value="0"/>
+        <generic name="NDIRECTION" value="0"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="OR_ACLR_INPUTS" value="1"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_pipelined_adder_GNWEIMU3MK.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sLpmAddSub.vhd"/>
+    </instance>
+    <instance version="13.1" decorated-name="alt_dspbuilder_pipelined_adder_GNTWZRTG4I">
+        <generic name="USE_CARRY_PORT" value="0"/>
+        <generic name="USE_CARRY_OUT_PORT" value="0"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="SIGNED" value="0"/>
+        <generic name="OR_ACLR_INPUTS" value="1"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="dataa" dir="Input"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="datab" dir="Input"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="result" dir="Output"
+            vhdl-type="std_logic_vector(0-1 downto 0)" width="0" lowerbound="0"/>
+        <port name="user_aclr" dir="Input" vhdl-type="std_logic"
+            width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_pipelined_adder_GNTWZRTG4I.vhd"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_sLpmAddSub.vhd"/>
+    </instance>
+    <supersetport name="user_aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="result" dir="Output"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="dataa" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="datab" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="cout" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="add_sub" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cin" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="USE_CARRY_PORT" default="1" type="NATURAL"/>
+    <parameter-static name="USE_CARRY_OUT_PORT" default="1" type="NATURAL"/>
+    <parameter-static name="NDIRECTION" default="1" type="INTEGER"/>
+    <parameter-static name="PIPELINE" default="0" type="INTEGER"/>
+    <parameter-static name="WIDTH" default="0" type="NATURAL"/>
+    <parameter-static name="SIGNED" default="0" type="INTEGER"/>
+    <parameter-static name="OR_ACLR_INPUTS" default="1" type="NATURAL"/>
+</jvgen>

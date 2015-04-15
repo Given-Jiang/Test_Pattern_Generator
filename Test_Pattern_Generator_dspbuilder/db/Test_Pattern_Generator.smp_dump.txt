@@ -1,0 +1,13 @@
+
+State Machine - |Test_Pattern_Generator|Test_Pattern_Generator_GN:\Test_Pattern_Generator_GN_0:inst_Test_Pattern_Generator_GN_0|Test_Pattern_Generator_GN_Test_Pattern_Generator_MAIN_CTRL:test_pattern_generator_main_ctrl_0|Test_Pattern_Generator_GN_Test_Pattern_Generator_MAIN_CTRL_CTRL_TOP:test_pattern_generator_main_ctrl_ctrl_top_0|StateMachineEditor:state_machine_editor|fstate
+Name fstate.CTRL fstate.DATA fstate.IDLE 
+fstate.IDLE 0 0 0 
+fstate.DATA 0 1 1 
+fstate.CTRL 1 0 1 
+
+State Machine - |Test_Pattern_Generator|Test_Pattern_Generator_GN:\Test_Pattern_Generator_GN_0:inst_Test_Pattern_Generator_GN_0|Test_Pattern_Generator_GN_Test_Pattern_Generator_DATA_GENERATE:test_pattern_generator_data_generate_0|StateMachineEditor1:state_machine_editor1|fstate
+Name fstate.BLOCKC fstate.BLOCKB fstate.BLOCKA fstate.IDLE 
+fstate.IDLE 0 0 0 0 
+fstate.BLOCKA 0 0 1 1 
+fstate.BLOCKB 0 1 0 1 
+fstate.BLOCKC 1 0 0 1 
